@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saree Sale | Savitha Silks Drapes</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: linear-gradient(135deg, #d4f7d4, #c9a0dc); 
+      color: #222; 
+    }
+    header { background: #6a0dad; color: #fff; padding: 15px; text-align: center; }
+    header h1 { margin: 0; }
+    .container { max-width: 1100px; margin: 20px auto; padding: 0 15px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 20px; }
+    .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+    .card img { width: 100%; height: 300px; object-fit: contain; background: #f3f3f3; }
+    .content { padding: 15px; }
+    .content h3 { margin: 0 0 10px; color: #6a0dad; }
+    .price { font-size: 18px; font-weight: bold; color: #008000; }
+    .old { text-decoration: line-through; color: gray; font-size: 14px; margin-left: 10px; }
+    .btn { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #6a0dad; color: white; border-radius: 6px; text-decoration: none; font-weight: bold; }
+    .btn:hover { background: #5500a3; }
+    footer { text-align: center; margin-top: 30px; padding: 15px; background: #008000; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💜 Saree Sale - Savitha Silks Drapes 💚</h1>
+    <p>Festive Offer – Up to 40% Off | Free Shipping in India</p>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+
+      <div class="card">
+        <img src="banarasi.jpg" alt="Banarasi Silk Saree">
+        <div class="content">
+          <h3>Banarasi Silk Saree</h3>
+          <div><span class="price">₹3,499</span> <span class="old">₹4,499</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Banarasi%20Silk%20Saree.%20Photo:%20banarasi.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="chanderi.jpg" alt="Chanderi Cotton Saree">
+        <div class="content">
+          <h3>Chanderi Cotton Saree</h3>
+          <div><span class="price">₹1,299</span> <span class="old">₹1,799</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Chanderi%20Cotton%20Saree.%20Photo:%20chanderi.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="kanjeevaram.jpg" alt="Kanjeevaram Saree">
+        <div class="content">
+          <h3>Kanjeevaram Saree</h3>
+          <div><span class="price">₹4,999</span> <span class="old">₹5,499</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Kanjeevaram%20Saree.%20Photo:%20kanjeevaram.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="crepe.jpg" alt="Printed Crepe Saree">
+        <div class="content">
+          <h3>Printed Crepe Saree</h3>
+          <div><span class="price">₹999</span> <span class="old">₹1,299</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Printed%20Crepe%20Saree.%20Photo:%20crepe.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="tussar.jpg" alt="Tussar Silk Saree">
+        <div class="content">
+          <h3>Tussar Silk Saree</h3>
+          <div><span class="price">₹2,899</span> <span class="old">₹3,999</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Tussar%20Silk%20Saree.%20Photo:%20tussar.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="cotton.jpg" alt="Cotton Handloom Saree">
+        <div class="content">
+          <h3>Cotton Handloom Saree</h3>
+          <div><span class="price">₹1,199</span> <span class="old">₹1,599</span></div>
+          <a href="https://wa.me/919538897208?text=I%20want%20to%20buy%20Cotton%20Handloom%20Saree.%20Photo:%20cotton.jpg" class="btn">Buy Now</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Savitha Silks Drapes | WhatsApp: +91-95388-97208 | Email: arunsavitha25@gmail.com
+  </footer>
+</body>
+</html>
